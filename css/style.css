@@ -268,3 +268,56 @@ img{
 .level_80:before{
     width: 80%;
 }
+
+@media (max-width: 1024px) {
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        flex-direction: column;
+    }
+    .profile-photo{
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        border-radius: 50%;
+    }
+    .lines{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        width: 80%;
+    }
+    .resume-wrap{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 567px) {
+    .logo-img{
+        width: 70px;
+        height: 70px;
+    }
+    .logo-lines{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+@media (max-width: 480px) {
+    .logo{
+        display: none;
+    }
+    .container{
+        min-width: 320px;
+    }
+    .name{
+        letter-spacing: normal;
+    }
+    .level{
+        width: 50%;
+    }
+}
